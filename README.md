@@ -19,6 +19,7 @@ File ini berisi kelas untuk menyimpan dan memanipulasi data mahasiswa. Ada dua k
 
 Mahasiswa: Kelas ini menyimpan informasi mahasiswa seperti NIM, nama, dan program studi.
 DataMahasiswa: Kelas ini berfungsi untuk mengelola data mahasiswa secara kolektif. Kelas ini menyediakan metode untuk menambah, menghapus, mengubah, mencari, dan menampilkan data mahasiswa.
+
 2. view/input_form.py
 File ini berisi kelas InputForm yang digunakan untuk mengambil input dari pengguna saat menambahkan data mahasiswa. Metode yang ada di dalamnya adalah input_mahasiswa(), yang meminta pengguna untuk memasukkan NIM, nama, dan program studi mahasiswa.
 
@@ -27,6 +28,7 @@ File ini berisi kelas ViewMahasiswa yang bertanggung jawab untuk menampilkan dat
 
 tampilkan_mahasiswa(): Menampilkan daftar semua mahasiswa.
 tampilkan_detail(): Menampilkan detail informasi seorang mahasiswa berdasarkan NIM.
+
 4. main.py
 File utama yang menjalankan program. Di sini, menu utama ditampilkan kepada pengguna, dan pengguna dapat memilih berbagai opsi untuk mengelola data mahasiswa. Program ini berinteraksi dengan kelas-kelas yang ada di modul data dan view untuk memproses data mahasiswa sesuai dengan pilihan pengguna.
 
